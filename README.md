@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/GLOMICON/omicon.svg?branch=master)](https://travis-ci.org/GLOMICON/omicon)
-[![DOI](https://zenodo.org/badge/13996/GLOMICON/omicon.svg)](https://zenodo.org/badge/latestdoi/13996/GLOMICON/omicon)
 
 # An ontology for global omics observation
 
