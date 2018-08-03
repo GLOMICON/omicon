@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/omicon
+
+idspace: OMICON
+base_url: /obo/omicon
+
+products:
+- omicon.owl: https://raw.githubusercontent.com/GLOMICON/the-omics-ontology/master/omicon.owl
+- omicon.obo: https://raw.githubusercontent.com/GLOMICON/the-omics-ontology/master/omicon.obo
+
+term_browser: ontobee
+example_terms:
+- OMICON_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/GLOMICON/the-omics-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/GLOMICON/the-omics-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/OMICON?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/GLOMICON/the-omics-ontology/master/
