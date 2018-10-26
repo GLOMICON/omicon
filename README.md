@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/GLOMICON/omicon.svg?branch=master)](https://travis-ci.org/GLOMICON/omicon)
 
+```
+This repo is being modified within the GLOMICON organisation 
+```
 # An ontology for global omics observation
 
 # About the ontology
